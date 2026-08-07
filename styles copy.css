@@ -2,34 +2,58 @@
    ANOFFDAY V2
 =========================== */
 
-/* ==================================================
-   RESET
-================================================== */
+/* =========================
+   MOBILE
+========================= */
 
-/* ==================================================
-   VARIABLES
-================================================== */
+@media (max-width: 768px) {
 
-/* ==================================================
-   GLOBAL
-================================================== */
+    .navbar{
+    padding:15px 20px;
+}
 
-/* ==================================================
-   NAVBAR
-================================================== */
+.navbar nav{
+    display:none;
+}
 
-/* ==================================================
-   HERO
-================================================== */
+.logo span{
+    font-size:1.8rem;
+}
 
-/* ==================================================
-   BUTTONS
-================================================== */
+.youtube-button{
+    padding:14px 22px;
+    font-size:1rem;
+}
 
-/* ==================================================
-   FEATURED VIDEOS
-================================================== */
+.hero{
+    grid-template-columns:1fr;
+    text-align:center;
+    gap:40px;
+}
 
+.hero-left{
+    order:2;
+}
+
+.hero-image{
+    order:1;
+}
+
+.hero-image img{
+    max-width:220px;
+    margin:0 auto;
+}
+
+.hero h1{
+    font-size:3.2rem;
+    line-height:1.05;
+}
+
+.hero-newsletter-button{
+    margin:30px auto;
+}
+
+}
 
 :root{
     --bg:#0b1020;
@@ -709,56 +733,4 @@ color:#9fa7c8;
 .hero-newsletter-button:hover{
     transform:translateY(-3px);
     box-shadow:0 15px 35px rgba(0,0,0,.25);
-}
-/* ==================================================
-   MOBILE
-================================================== */
-
-@media (max-width: 768px) {
-
-    .navbar{
-    padding:15px 20px;
-}
-
-.navbar nav{
-    display:none;
-}
-
-.logo span{
-    font-size:1.8rem;
-}
-
-.youtube-button{
-    padding:14px 22px;
-    font-size:1rem;
-}
-
-.hero{
-    grid-template-columns:1fr;
-    text-align:center;
-    gap:40px;
-}
-
-.hero-left{
-    order:2;
-}
-
-.hero-image{
-    order:1;
-}
-
-.hero-image img{
-    max-width:220px;
-    margin:0 auto;
-}
-
-.hero h1{
-    font-size:3.2rem;
-    line-height:1.05;
-}
-
-.hero-newsletter-button{
-    margin:30px auto;
-}
-
 }

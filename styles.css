@@ -236,22 +236,33 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    padding: 15px 20px;
-  }
+ .navbar {
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
-  .navbar nav {
-    display: none;
-  }
+.navbar nav {
+    display: flex;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 8px;
+}
 
-  .logo span {
-    font-size: 1.8rem;
-  }
+.navbar nav a {
+    font-size: 0.8rem;
+}
 
-  .youtube-button {
-    padding: 14px 22px;
-    font-size: 1rem;
-  }
+.logo span {
+    font-size: 1.4rem;
+}
+
+.youtube-button {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+}
 
   .hero {
     grid-template-columns: 1fr;

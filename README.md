@@ -3,7 +3,6 @@
 ## Files
 - index.html
 - styles.css
-- script.js
 
 ## Next steps
 1. Upload these files to your anoffday.github.io repository.
